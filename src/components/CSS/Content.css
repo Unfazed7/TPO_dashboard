@@ -1,0 +1,51 @@
+.contnet_cnt{
+    height: 78vh;
+    width: 77%;
+}
+.card_cnt{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 10px; */
+}
+.card{
+    width: 30%;
+    height: 70%;
+    text-align: center;
+    background-color: rgba(28, 56, 82, 0.553);
+    color: rgb(3, 49, 63);
+    margin: 5px;
+    border: 1px;
+    border-radius: 100px;
+    transition: all 0.5s linear;
+    /* transition: border-radius 0.2s linear; */
+
+}
+.card:hover{
+    background-color: rgb(3, 49, 63);
+    color: beige;
+    border-color: rgb(3, 49, 63);
+}
+
+
+.tbl_cnt{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+   
+  }
+
+th,td,tr{
+    width: 150px;
+  
+}  

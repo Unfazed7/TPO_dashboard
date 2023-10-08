@@ -1,0 +1,24 @@
+.Container{
+    width: 100%;
+    height: 20%;
+    background-color: aqua;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.clg_logo_cnt{
+    margin: 5px;
+    margin-left: 5%;
+    width: 10%;
+    height: 100%;
+}
+.clg_logo{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.clg_name{
+    width: 70%;
+    /* margin-right: 10px; */
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+.Side_bar_cont{
+    background-color: rgb(39, 31, 21);
+    height: 78vh;
+    width: 23%; 
+}
+.Dropdown{
+    height: 50px;
+    width: 70%;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    /* text-align: center; */
+    margin-left: 35px;
+    font-weight: bolder;
+    font-size: 15px;
+    border: 1px;
+    border-radius: 10px;
+}
