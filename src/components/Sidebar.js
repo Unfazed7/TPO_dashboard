@@ -25,6 +25,9 @@ const Sidebar = () => {
                 </select>
             </div>
         </div>
+        <div className='Upcoming_evnt'>
+            <h2>Upcoming Events...</h2>
+        </div>
     </div>
   )
 }
