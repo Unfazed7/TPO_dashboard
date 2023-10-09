@@ -1,25 +1,27 @@
 .contnet_cnt{
-    height: 78vh;
+    height: 100%    ;
     width: 77%;
 }
 .card_cnt{
     height: 30%;
-    width: 100%;
+    width: 94%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* margin: 10px; */
+    padding-left: 30px; 
 }
 .card{
     width: 30%;
     height: 70%;
     text-align: center;
     background-color: rgba(28, 56, 82, 0.553);
-    color: rgb(3, 49, 63);
+    color: rgb(1, 26, 34);
+    color: rgb(1, 27, 40);
     margin: 5px;
     border: 1px;
     border-radius: 100px;
-    transition: all 0.5s linear;
+    transition: all 0.4s linear;
     /* transition: border-radius 0.2s linear; */
 
 }
@@ -27,25 +29,67 @@
     background-color: rgb(3, 49, 63);
     color: beige;
     border-color: rgb(3, 49, 63);
+    transform: scale(1.1);
 }
 
-
-.tbl_cnt{
+.stu_cnt{
     height: 50vh;
-    width: 100%;
+    width: 90%;
+    padding-top: 20px;
     display: flex;
-    
-    align-items: center;
+    overflow: scroll;
+    /* align-items: center; */
     justify-content: center;
+    border: 1px solid black;
+    margin: 10px;
+    /* margin-left: 50px; */
 }
 
-table, th, td {
+table{
+    border: 1px solid black;
+    margin-top: 40px;
+    padding: 30px;
+}
+tr {
     border: 1px solid black;
     text-align: center;
-   
+    height: 30px;
   }
 
 th,td,tr{
     width: 150px;
   
-}  
+}
+tr{
+    transition: all 0.3s linear;
+}
+.row:hover{
+    background-color: rgb(100, 58, 7);
+    background-color: rgba(69, 50, 26, 0.891);
+    /* transform: scale(1.02); */
+    /* border-radius: 100px; */
+    color: beige;
+    font-weight: bolder;
+}
+
+#add_new_stu_btn{
+    background-color: rgb(39, 31, 21);
+    color: beige;
+    height: 50px;
+    width: 70%;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    margin-left: 45px;
+    font-weight: bolder;
+    font-size: 15px;
+    border: 1px;
+    border-radius: 10px; 
+    transition: all 0.2s linear;
+}
+#add_new_stu_btn:hover{
+    background-color: beige;
+    color: rgb(39, 31, 21);
+    border: 2px solid rgb(39, 31, 21);
+    border-radius: 20px; 
+}
