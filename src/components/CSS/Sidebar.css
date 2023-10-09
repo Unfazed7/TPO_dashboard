@@ -1,7 +1,9 @@
 .Side_bar_cont{
     background-color: rgb(39, 31, 21);
-    height: 78vh;
+    height: 100%;
     width: 23%; 
+    border: 1px;
+    border-radius: 5px;
 }
 .Dropdown{
     height: 50px;
@@ -10,9 +12,29 @@
     margin-top: 50px;
     padding: 10px;
     /* text-align: center; */
-    margin-left: 35px;
+    margin-left: 45px;
+    font-weight: bolder;
+    font-size: 15px;
+    border: 1px;
+    border-radius: 10px; 
+    /* transition: all 0.5s linear; */
+}
+.Upcoming_evnt{
+    background-color: rgba(69, 50, 26, 0.891);
+    width: 70%;
+    margin: 10px;
+    margin-top: 20px;
+    padding-top: 2px;
+    margin-left: 45px;
     font-weight: bolder;
     font-size: 15px;
     border: 1px;
     border-radius: 10px;
+    height: 60%;
+    text-align: center;
+    color: beige;
+    transition: all 0.5s linear;
+}
+.Upcoming_evnt:hover{
+    transform: scale(1.05);
 }
