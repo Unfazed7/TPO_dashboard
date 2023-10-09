@@ -27,7 +27,11 @@ const Content = () => {
                 </tr>
                 <tr className='row'>
                     <td>1</td>
-                    <td>Sujay Asaabe</td>
+
+                 
+
+                    <td>Sujay  mane</td>
+
                     <td>50LPA</td>
                     <td>2024-2025</td>
                 </tr>
