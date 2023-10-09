@@ -18,23 +18,6 @@ const Content = () => {
                 <h4>Average Package Offered</h4>
             </div>
         </div>
-        <div className='stu_cnt'>
-            <div className="tbl_cnt">
-                <table className='tbl'rules="none">
-                    <tr>
-                        <th>Sr NO.</th>
-                        <th>Name</th>
-                        <th>Package</th>
-                        <th>Batch</th>
-                        <th>Branch</th>
-                    </tr>
-                </table>
-                <div className='add_new_stu'>
-                    <button id='add_new_stu_btn' onClick={func}>
-                        Add New Student
-                    </button>
-                </div>
-            </div>
         </div>
     </div>
   )
